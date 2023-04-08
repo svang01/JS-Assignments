@@ -87,7 +87,8 @@ function playGame(player1, player2, playUntil) {
       return player2;
     }
 }
-  // Define the playTournament function
+  
+// Define the playTournament function
 function playTournament(player1, player2, player3, player4, playUntil) {
     playUntil = playUntil || 5;
   
@@ -100,7 +101,7 @@ function playTournament(player1, player2, player3, player4, playUntil) {
     console.log(semiFinalWinner2.name + " advances to the final round!");
   
     console.log("Final: " + semiFinalWinner1.name + " vs " + semiFinalWinner2.name);
-    const finalWinner = playGame(semiFinalWinner1, semiFinalWinner2, playUntil [3]);
+    const finalWinner = playGame(semiFinalWinner1, semiFinalWinner2, playUntil);
     console.log(finalWinner.name + " is the World Champion!");}
 
     playTournament(player1, player2, player3, player4, 5);
