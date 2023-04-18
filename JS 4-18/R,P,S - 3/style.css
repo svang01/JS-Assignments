@@ -1,0 +1,62 @@
+h1 {
+    text-align: center;
+  }
+  
+  .players {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+  }
+
+  .player {
+    text-align: center;
+  }
+  
+  .player-choice {
+    margin-top: 20px;
+  }
+  
+  .play-btn {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+  }
+ 
+  #p1-play {
+    background-color: rgb(14, 181, 236);
+    padding: 20px;
+    
+  }
+#p1-play:hover{
+    opacity: .7;
+}  
+  #p2-play {
+    background-color: rgb(209, 201, 251);
+    padding: 20px;
+  }
+  #p2-play:hover{
+    opacity: .7;
+  }
+  #p3-play {
+    background-color: rgb(94, 248, 94);
+    padding: 20px;
+  }
+  #p3-play:hover{
+    opacity: .7;
+  }
+  #p4-play {
+    background-color: rgb(243, 39, 39);
+    padding: 20px;
+  }
+  #p4-play:hover{
+    opacity: .7;
+  }
+  .player-result {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
