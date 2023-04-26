@@ -2,4 +2,7 @@
 console.log("hello");
 
 // Require or import the 'moment' modules in your application.
-const moment = require('moment');
+const Moment = require('moment');
+
+const a = new Moment();
+console.log(a.format('h:mm:ss a'));
