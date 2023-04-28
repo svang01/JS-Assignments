@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+  
+.board {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 10px;
+  width: 900px;
+  height: 600px;
+  background-color: #e61818;
+  border: 5px solid #333;
+  border-radius: 10px;
+  padding: 10px;
+  overflow: hidden;
+}
+  
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: #333;
+  background-color: #FFF;
+  border: 5px solid #333;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+  
+.card:hover {
+  background-color: #163cfc;
+}
+  
+.flipped {
+  background-color: #F5F5F5;
+}
+  
+.score {
+  margin-top: 20px;
+  font-size: 24px;
+}
+  
+button {
+  margin-left: 20px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+}
+  
+button:hover {
+  background-color: grey;
+} 
+  
+
+
+
+  
